@@ -1,0 +1,470 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\views\\shared\\components\\productdetailslist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:views\\shared\\components\\productdetailslist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\controllers\\productdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:controllers\\productdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\datapreparition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:datapreparition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\views\\shared\\components\\userhomelist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:views\\shared\\components\\userhomelist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\views\\shared\\components\\wishlistlist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:views\\shared\\components\\wishlistlist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\views\\shared\\components\\indexlist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:views\\shared\\components\\indexlist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\viewcomponents\\productdetails\\productdetailslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:viewcomponents\\productdetails\\productdetailslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\viewcomponents\\colour\\colourlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:viewcomponents\\colour\\colourlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\views\\shared\\components\\colourlist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:views\\shared\\components\\colourlist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\views\\shared\\components\\accountlist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:views\\shared\\components\\accountlist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\views\\shared\\components\\cartlist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:views\\shared\\components\\cartlist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\views\\shared\\components\\pricelist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:views\\shared\\components\\pricelist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\views\\shared\\components\\brandslist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:views\\shared\\components\\brandslist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\controllers\\colourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:controllers\\colourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\viewcomponents\\brands\\brandslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:viewcomponents\\brands\\brandslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\controllers\\pricecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:controllers\\pricecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\viewcomponents\\price\\pricelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:viewcomponents\\price\\pricelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\entitylayer\\concrete\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:entitylayer\\concrete\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\entitylayer\\concrete\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:entitylayer\\concrete\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\dataaccesslayer\\concrete\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:dataaccesslayer\\concrete\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\viewcomponents\\wishlist\\wishlistlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:viewcomponents\\wishlist\\wishlistlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\viewcomponents\\cart\\cartlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:viewcomponents\\cart\\cartlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|c:\\users\\hasre\\source\\repos\\bitirmeprojesi\\bitirmeprojesi\\dataaccesslayer\\entityframework\\efwishlistdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3912C47-6E6A-459E-A8DE-D6D7C990BFB5}|BitirmeProjesi.csproj|solutionrelative:dataaccesslayer\\entityframework\\efwishlistdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 565,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAIwFUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T06:22:24.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ColourList.cs",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\ViewComponents\\Colour\\ColourList.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\Colour\\ColourList.cs",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\ViewComponents\\Colour\\ColourList.cs",
+              "RelativeToolTip": "ViewComponents\\Colour\\ColourList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T16:05:15.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowFAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T15:17:52.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataPreparition.cs",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\DataPreparition.cs",
+              "RelativeDocumentMoniker": "DataPreparition.cs",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\DataPreparition.cs",
+              "RelativeToolTip": "DataPreparition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T10:26:20.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Views\\Shared\\Components\\BrandsList\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\BrandsList\\Default.cshtml",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Views\\Shared\\Components\\BrandsList\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\BrandsList\\Default.cshtml",
+              "ViewState": "AgIAAPkAAAAAAAAAAAAjwA4BAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T18:30:20.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Views\\Shared\\Components\\ColourList\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\ColourList\\Default.cshtml",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Views\\Shared\\Components\\ColourList\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\ColourList\\Default.cshtml",
+              "ViewState": "AgIAANUAAAAAAAAAAAAAAAABAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T18:25:30.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Views\\Shared\\Components\\PriceList\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\PriceList\\Default.cshtml",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Views\\Shared\\Components\\PriceList\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\PriceList\\Default.cshtml",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAAAA8BAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T18:00:48.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BrandsList.cs",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\ViewComponents\\Brands\\BrandsList.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\Brands\\BrandsList.cs",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\ViewComponents\\Brands\\BrandsList.cs",
+              "RelativeToolTip": "ViewComponents\\Brands\\BrandsList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:57:57.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PriceList.cs",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\ViewComponents\\Price\\PriceList.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\Price\\PriceList.cs",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\ViewComponents\\Price\\PriceList.cs",
+              "RelativeToolTip": "ViewComponents\\Price\\PriceList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:57:53.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BrandsController.cs",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Controllers\\BrandsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BrandsController.cs",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Controllers\\BrandsController.cs",
+              "RelativeToolTip": "Controllers\\BrandsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:56:16.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PriceController.cs",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Controllers\\PriceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PriceController.cs",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Controllers\\PriceController.cs",
+              "RelativeToolTip": "Controllers\\PriceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:56:05.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "default.cshtml",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Views\\Shared\\Components\\WishlistList\\default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\WishlistList\\default.cshtml",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Views\\Shared\\Components\\WishlistList\\default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\WishlistList\\default.cshtml",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAjwL4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T17:33:07.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Views\\Shared\\Components\\CartList\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\CartList\\Default.cshtml",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Views\\Shared\\Components\\CartList\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\CartList\\Default.cshtml",
+              "ViewState": "AgIAACsBAAAAAAAAAAAjwD4BAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T17:29:07.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ColourController.cs",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Controllers\\ColourController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ColourController.cs",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Controllers\\ColourController.cs",
+              "RelativeToolTip": "Controllers\\ColourController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:22:07.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Views\\Shared\\Components\\ProductDetailsList\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\ProductDetailsList\\Default.cshtml",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Views\\Shared\\Components\\ProductDetailsList\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\ProductDetailsList\\Default.cshtml",
+              "ViewState": "AgIAALAAAAAAAAAAAAAUwNQAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T16:25:52.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Controllers\\ProductDetailsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductDetailsController.cs",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Controllers\\ProductDetailsController.cs",
+              "RelativeToolTip": "Controllers\\ProductDetailsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:34:23.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductDetailsList.cs",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\ViewComponents\\ProductDetails\\ProductDetailsList.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\ProductDetails\\ProductDetailsList.cs",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\ViewComponents\\ProductDetails\\ProductDetailsList.cs",
+              "RelativeToolTip": "ViewComponents\\ProductDetails\\ProductDetailsList.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:31:39.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Views\\Shared\\Components\\IndexList\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\IndexList\\Default.cshtml",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Views\\Shared\\Components\\IndexList\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\IndexList\\Default.cshtml",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAjwA8BAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T16:13:57.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Views\\Shared\\Components\\AccountList\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\AccountList\\Default.cshtml",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Views\\Shared\\Components\\AccountList\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\AccountList\\Default.cshtml",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAjwKQAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T15:41:28.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\EntityLayer\\Concrete\\Orders.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\Concrete\\Orders.cs",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\EntityLayer\\Concrete\\Orders.cs",
+              "RelativeToolTip": "EntityLayer\\Concrete\\Orders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:40:52.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\EntityLayer\\Concrete\\Cart.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\Concrete\\Cart.cs",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\EntityLayer\\Concrete\\Cart.cs",
+              "RelativeToolTip": "EntityLayer\\Concrete\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T15:31:50.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Views\\Shared\\Components\\UserHomeList\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\UserHomeList\\Default.cshtml",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Views\\Shared\\Components\\UserHomeList\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\UserHomeList\\Default.cshtml",
+              "ViewState": "AgIAAF8BAAAAAAAAAAAAACABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T16:12:47.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CartList.cs",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\ViewComponents\\Cart\\CartList.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\Cart\\CartList.cs",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\ViewComponents\\Cart\\CartList.cs",
+              "RelativeToolTip": "ViewComponents\\Cart\\CartList.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwCMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T15:25:28.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\DataAccessLayer\\Concrete\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Concrete\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\DataAccessLayer\\Concrete\\AppDbContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\Concrete\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T15:23:22.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EfWishlistDal.cs",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\DataAccessLayer\\EntityFramework\\EfWishlistDal.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\EntityFramework\\EfWishlistDal.cs",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\DataAccessLayer\\EntityFramework\\EfWishlistDal.cs",
+              "RelativeToolTip": "DataAccessLayer\\EntityFramework\\EfWishlistDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T15:23:09.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "WishlistList.cs",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\ViewComponents\\Wishlist\\WishlistList.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\Wishlist\\WishlistList.cs",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\ViewComponents\\Wishlist\\WishlistList.cs",
+              "RelativeToolTip": "ViewComponents\\Wishlist\\WishlistList.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T15:20:32.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "WishlistController.cs",
+              "DocumentMoniker": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Controllers\\WishlistController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WishlistController.cs",
+              "ToolTip": "C:\\Users\\hasre\\source\\repos\\BitirmeProjesi\\BitirmeProjesi\\Controllers\\WishlistController.cs",
+              "RelativeToolTip": "Controllers\\WishlistController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAcwEAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T15:03:52.334Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+@model BitirmeProjesi.ViewComponents.ProductDetails.ProductDetailsViewModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Product Details | E-Shopper</title>
+	<link href="~/Eshopper/css/bootstrap.min.css" rel="stylesheet">
+	<link href="~/Eshopper/css/font-awesome.min.css" rel="stylesheet">
+	<link href="~/Eshopper/css/prettyPhoto.css" rel="stylesheet">
+	<link href="~/Eshopper/css/price-range.css" rel="stylesheet">
+	<link href="~/Eshopper/css/animate.css" rel="stylesheet">
+	<link href="~/Eshopper/css/main.css" rel="stylesheet">
+	<link href="~/Eshopper/css/responsive.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<script src="~/Eshopper/js/html5shiv.js"></script>
+	<script src="~/Eshopper/js/respond.min.js"></script>
+	<![endif]-->
+	<link rel="shortcut icon" href="~/Eshopper/images/ico/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="~/Eshopper/images/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="~/Eshopper/images/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="~/Eshopper/images/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="~/Eshopper/images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body>
+	<header id="header">
+		<!--header-->
+		<div class="header_top">
+			<!--header_top-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="contactinfo">
+							<ul class="nav nav-pills">
+								<li><a href="#"><i class="fa fa-phone"></i>Hoşgeldin </a></li>
+								<li><a href="#"><i class="fa fa-envelope"></i> </a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="social-icons pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="https://www.facebook.com/login.php/"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://x.com/i/flow/login"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://www.linkedin.com/login"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="https://workspace.google.com/intl/en-US/gmail/"><i class="fa fa-google-plus"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header_top-->
+
+		<div class="header-middle">
+			<!--header-middle-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="logo pull-left">
+							<a href="index.html">
+								<img src="~/Eshopper/images/home/paint.png" alt="logo" class="img-fluid w-50">
+							</a>
+						</div>
+						<div class="btn-group pull-right">
+							<div class="btn-group">
+								<button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+									TUR
+									<span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li><a href="#">Indian</a></li>
+									<li><a href="#">UK</a></li>
+								</ul>
+							</div>
+
+							<div class="btn-group">
+								<button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+									TL
+									<span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li><a href="#">Rupi</a></li>
+									<li><a href="#">Pound</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-8">
+						<div class="shop-menu pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="#"><i class="fa fa-user"></i> Hesap</a></li>
+								<li><a href="@Url.Action("Index", "Wishlist")"><i class="fa fa-star"></i> Favoriler</a></li>
+								<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Ödeme</a></li>
+								<li><a href="@Url.Action("Index", "Cart")"><i class="fa fa-shopping-cart"></i> Sepet</a></li>
+								<li><a href="@Url.Action("Index", "Login")"><i class="fa fa-lock"></i>Çıkış Yap</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-middle-->
+
+		<div class="header-bottom">
+			<!--header-bottom-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-9">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="mainmenu pull-left">
+							<ul class="nav navbar-nav collapse navbar-collapse">
+								<li><a href="@Url.Action("Index", "Default")" class="active">Ana Sayfa</a></li>
+								<li class="dropdown">
+									<a href="#">Alışveriş<i class="fa fa-angle-down"></i></a>
+									<ul role="menu" class="sub-menu">
+										<li><a href="checkout.html">Ödeme</a></li>
+										<li><a href="@Url.Action("Index", "Cart")">Sepet</a></li>
+										<li><a href="@Url.Action("Index", "Login")">Giriş</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="search_box pull-right">
+							<input type="text" placeholder="Arama" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-bottom-->
+	</header><!--/header-->
+	<section>
+		<div class="container">
+			<div class="row product-details">
+				<!-- Sol kısım: Ürün resmi -->
+				<div class="col-md-5">
+					<div class="view-product rounded shadow-sm p-3 bg-white" style="max-width:400px; margin:auto;">
+						<img src="@Model.Product.img" alt="@Model.Product.name" class="img-fluid rounded mb-2" style="max-width:100%; height:auto; display:block; margin:auto;" />
+						<h5 class="text-muted text-center">BÜYÜK GÖRÜNÜM</h5>
+					</div>
+
+					<div id="similar-product" class="carousel slide mt-4" data-ride="carousel">
+						<!-- Benzer ürün carousel içeriği -->
+					</div>
+				</div>
+
+				<!-- Sağ kısım: Ürün bilgileri -->
+				<div class="col-md-7">
+					<div class="product-information rounded p-4 shadow-sm bg-light mb-4" style="max-width:600px; margin:auto;">
+						<h2 class="mb-4">@Model.Product.name</h2>
+						<p><strong>Ürün Kodu:</strong> @Model.Product.p_id</p>
+						<div class="d-flex align-items-center mb-3">
+							<span class="h4 font-weight-bold mr-4">@Model.Product.price TL</span>
+							<form asp-controller="Cart" asp-action="SepeteEkle" method="post" class="form-inline align-items-center">
+								<label for="quantity" class="mr-2 mb-0">Adet:</label>
+								<input type="number" id="quantity" name="quantity" value="1" min="1" class="form-control w-25 mr-3" />
+								<input type="hidden" name="productId" value="@Model.Product.p_id" />
+								<input type="hidden" name="userId" value="@Model.UserId" />
+								<button type="submit" class="btn btn-primary">Sepete Ekle</button>
+							</form>
+						</div>
+						<p class="mt-3"><b>Stok Durumu:</b> Mevcut</p>
+						<p><b>Marka:</b> @Model.Product.brand</p>
+					</div>
+
+					<!-- Açıklama ve yorumlar kısmı -->
+					<div class="product-description rounded shadow-sm p-4 bg-white" style="max-width:600px; margin:auto;">
+						<h4>Açıklama</h4>
+						@{
+							var paragraphs = Model.Product.description?.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries);
+							if (paragraphs != null)
+							{
+								foreach (var para in paragraphs)
+								{
+									<p style="font-size:1.1rem; line-height:1.6; margin-bottom:1rem; color:#333;">@para</p>
+								}
+							}
+							else
+							{
+								<p style="font-size:1.1rem; line-height:1.6; margin-bottom:1rem; color:#333;">@Model.Product.description</p>
+							}
+						}
+						<p style="font-size:1.1rem; line-height:1.6; margin-bottom:1rem; color:#333;">
+							<strong>Ürün Özellikleri:</strong> @Model.Product.p_attributes
+						</p>
+
+						<form action="#" class="mt-4">
+							<div class="form-row mb-3">
+								<div class="col-md-6 mb-2">
+									<input type="text" class="form-control" placeholder="Adınız" required />
+								</div>
+								<div class="col-md-6">
+									<input type="email" class="form-control" placeholder="E-posta Adresiniz" required />
+								</div>
+							</div>
+
+							<div class="form-group mb-3">
+								<textarea class="form-control" rows="5" placeholder="Yorumunuz..." required></textarea>
+							</div>
+
+							<div class="d-flex justify-content-between align-items-center">
+								<p class="mb-0"><strong>Ortalama Puan:</strong> @Model.Product.ratingcount ⭐</p>
+								<button type="submit" class="btn btn-primary">Gönder</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer id="footer">
+		<!--Footer-->
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<div class="companyinfo">
+							<h2>
+								<span>AISTYLE</span>
+								SHOPPING
+							</h2>
+							<p>Yapay zeka destekli E-ticaret sitesi ve kişiye özel öneriler için doğru adrestesiniz! </p>
+						</div>
+					</div>
+					<div class="col-sm-7">
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="https://www.linkedin.com/in/%C3%A7a%C4%9Fla-k%C3%BC%C3%A7%C3%BCk-a36224253/">
+									<div class="iframe-img">
+										<img src="~/Eshopper/images/home/linkedinlogo.png" alt="" />
+									</div>
+								</a>
+								<p>Linkedin - ÇAĞLA KÜÇÜK</p>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="https://www.linkedin.com/in/hasret-nisa-enginer-915730244/">
+									<div class="iframe-img">
+										<img src="~/Eshopper/images/home/linkedinlogo.png" alt="" />
+									</div>
+								</a>
+								<p>Linkedin - HASRET NİSA ENGİNER</p>
+							</div>
+						</div>
+
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="https://github.com/hasretenginrr">
+									<div class="iframe-img">
+										<img src="~/Eshopper/images/home/github.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>GİTHUB - HASRET NİSA ENGİNER</p>
+							</div>
+						</div>
+
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="https://github.com/Caglakucuk">
+									<div class="iframe-img">
+										<img src="~/Eshopper/images/home/github.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>GİTHUB- ÇAĞLA KÜÇÜK</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="address">
+							<img src="~/Eshopper/images/home/map.png" alt="" />
+							<p>Edirne / Turkey</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-widget">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3 col-sm-offset-1">
+						<div class="single-widget">
+							<h2>Alışveriş ile ilgili</h2>
+							<form action="#" class="searchform">
+								<input type="text" placeholder="Email adresin" />
+								<button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
+								<p>En son güncellemeleri almak için mailinizi giriniz. <br />Sitemizi ziyaret edin ve güncel kalın!</p>
+							</form>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<p class="pull-left">Copyright © 2025 AISTYLE SHOPPING Inc. Tüm haklar saklıdır.</p>
+					<p class="pull-right">Tasarım: <span><a target="_blank" href="http://www.themeum.com">Themeum</a></span></p>
+				</div>
+			</div>
+		</div>
+
+	</footer><!--/Footer-->
+
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/price-range.js"></script>
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

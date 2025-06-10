@@ -1,0 +1,669 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BitirmeProjesi.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BitirmeProjesi.17a2wjdksq.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\404.html",
+      "PackagePath": "staticwebassets\\Eshopper\\404.html"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\account.html",
+      "PackagePath": "staticwebassets\\Eshopper\\account.html"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\blog-single.html",
+      "PackagePath": "staticwebassets\\Eshopper\\blog-single.html"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\blog.html",
+      "PackagePath": "staticwebassets\\Eshopper\\blog.html"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\cart.html",
+      "PackagePath": "staticwebassets\\Eshopper\\cart.html"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\checkout.html",
+      "PackagePath": "staticwebassets\\Eshopper\\checkout.html"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\contact-us.html",
+      "PackagePath": "staticwebassets\\Eshopper\\contact-us.html"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\css\\animate.css",
+      "PackagePath": "staticwebassets\\Eshopper\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Eshopper\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Eshopper\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\css\\main.css",
+      "PackagePath": "staticwebassets\\Eshopper\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\css\\prettyPhoto.css",
+      "PackagePath": "staticwebassets\\Eshopper\\css\\prettyPhoto.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\css\\price-range.css",
+      "PackagePath": "staticwebassets\\Eshopper\\css\\price-range.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\Eshopper\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Eshopper\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Eshopper\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Eshopper\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\Eshopper\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\Eshopper\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\404\\404.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\404\\404.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\blog\\blog-one.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\blog\\blog-one.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\blog\\blog-three.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\blog\\blog-three.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\blog\\blog-two.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\blog\\blog-two.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\blog\\man-four.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\blog\\man-four.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\blog\\man-one.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\blog\\man-one.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\blog\\man-three.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\blog\\man-three.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\blog\\man-two.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\blog\\man-two.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\blog\\socials.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\blog\\socials.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\cart\\one.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\cart\\one.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\cart\\three.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\cart\\three.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\cart\\two.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\cart\\two.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\Hasretenginer.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\Hasretenginer.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\bg_border.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\bg_border.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\caglakucuk.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\caglakucuk.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\gallery1.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\gallery1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\gallery2.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\gallery2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\gallery3.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\gallery3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\gallery4.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\gallery4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\girl1.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\girl1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\girl2.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\girl2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\girl3.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\girl3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\github.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\github.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\iframe1.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\iframe1.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\iframe2.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\iframe2.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\iframe3.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\iframe3.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\iframe4.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\iframe4.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\indir.jpeg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\indir.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\indir2.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\indir2.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\linkedinlogo.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\linkedinlogo.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\logo.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\map.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\map.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\new.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\new.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\paint.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\paint.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\partner1.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\partner1.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\partner2.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\partner2.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\partner3.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\partner3.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\partner4.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\partner4.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\pricing.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\pricing.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\product1.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\product1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\product2.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\product2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\product3.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\product3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\product4.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\product4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\product5.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\product5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\product6.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\product6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\recommend1.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\recommend1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\recommend2.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\recommend2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\recommend3.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\recommend3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\resimdeneme.jpeg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\resimdeneme.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\sale.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\sale.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\searchicon.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\searchicon.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\home\\shipping.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\home\\shipping.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\product-details\\1.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\product-details\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\product-details\\new.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\product-details\\new.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\product-details\\rating.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\product-details\\rating.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\product-details\\share.png",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\product-details\\share.png"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\product-details\\similar1.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\product-details\\similar1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\product-details\\similar2.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\product-details\\similar2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\product-details\\similar3.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\product-details\\similar3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\shop\\advertisement.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\shop\\advertisement.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\shop\\product10.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\shop\\product10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\shop\\product11.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\shop\\product11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\shop\\product12.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\shop\\product12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\shop\\product7.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\shop\\product7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\shop\\product8.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\shop\\product8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\images\\shop\\product9.jpg",
+      "PackagePath": "staticwebassets\\Eshopper\\images\\shop\\product9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\index.html",
+      "PackagePath": "staticwebassets\\Eshopper\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Eshopper\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\js\\contact.js",
+      "PackagePath": "staticwebassets\\Eshopper\\js\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\js\\gmaps.js",
+      "PackagePath": "staticwebassets\\Eshopper\\js\\gmaps.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\js\\html5shiv.js",
+      "PackagePath": "staticwebassets\\Eshopper\\js\\html5shiv.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\Eshopper\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\js\\jquery.prettyPhoto.js",
+      "PackagePath": "staticwebassets\\Eshopper\\js\\jquery.prettyPhoto.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\js\\jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets\\Eshopper\\js\\jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\js\\main.js",
+      "PackagePath": "staticwebassets\\Eshopper\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\js\\price-range.js",
+      "PackagePath": "staticwebassets\\Eshopper\\js\\price-range.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\login.html",
+      "PackagePath": "staticwebassets\\Eshopper\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\product-details.html",
+      "PackagePath": "staticwebassets\\Eshopper\\product-details.html"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\sendemail.php",
+      "PackagePath": "staticwebassets\\Eshopper\\sendemail.php"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\shop.html",
+      "PackagePath": "staticwebassets\\Eshopper\\shop.html"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\Eshopper\\wishlist.html",
+      "PackagePath": "staticwebassets\\Eshopper\\wishlist.html"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hasre\\Source\\Repos\\BitirmeProjesi\\BitirmeProjesi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BitirmeProjesi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BitirmeProjesi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BitirmeProjesi.props",
+      "PackagePath": "build\\BitirmeProjesi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BitirmeProjesi.props",
+      "PackagePath": "buildMultiTargeting\\BitirmeProjesi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BitirmeProjesi.props",
+      "PackagePath": "buildTransitive\\BitirmeProjesi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,214 @@
+@model List<BitirmeProjesi.ViewComponents.Wishlist.WishlistItemViewModel>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Wishlist | E-Shopper</title>
+    <link href="~/Eshopper/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Eshopper/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Eshopper/css/prettyPhoto.css" rel="stylesheet">
+    <link href="~/Eshopper/css/price-range.css" rel="stylesheet">
+    <link href="~/Eshopper/css/animate.css" rel="stylesheet">
+    <link href="~/Eshopper/css/main.css" rel="stylesheet">
+    <link href="~/Eshopper/css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+<header id="header">
+    <!--header-->
+    <div class="header_top">
+        <!--header_top-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="contactinfo">
+                        <ul class="nav nav-pills">
+                            <li><a href="#"><i class="fa fa-envelope"></i> Hoşgeldiniz!</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="social-icons pull-right">
+                        <ul class="nav navbar-nav">
+                            <li><a href="https://www.facebook.com/login.php/"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://x.com/i/flow/login"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/login"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="https://workspace.google.com/intl/en-US/gmail/"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--/header_top-->
+
+    <div class="header-middle">
+        <!--header-middle-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="logo pull-left">
+                        <a href="wishlist.html">
+                            <img src="~/Eshopper/images/home/paint.png" alt="logo" class="img-fluid w-50">
+                        </a>
+                    </div>
+                    <div class="btn-group pull-right">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+                                TUR
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Indian</a></li>
+                                <li><a href="#">UK</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+                                TL
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Rupi</a></li>
+                                <li><a href="#">Pound</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="shop-menu pull-right">
+                        <ul class="nav navbar-nav">
+                            <li><a href="@Url.Action("Index", "Account")"><i class="fa fa-user"></i> Hesap</a></li>
+                            <li><a href="@Url.Action("Index", "Wishlist")"><i class="fa fa-star"></i> Favoriler</a></li>
+                                <li><a href="@Url.Action("Index", "Cart")"><i class="fa fa-shopping-cart"></i> Sepet</a></li>
+                            <li><a href="@Url.Action("Index", "Login")"><i class="fa fa-lock"></i> Giriş Yap</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--/header-middle-->
+
+    <div class="header-bottom">
+        <!--header-bottom-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="mainmenu pull-left">
+                        <ul class="nav navbar-nav collapse navbar-collapse">
+                            <li><a href="@Url.Action("Index", "UserHome")" class="active">Ana Sayfa</a></li>
+                            <li class="dropdown">
+                                <a href="#">Alışveriş<i class="fa fa-angle-down"></i></a>
+                                <ul role="menu" class="sub-menu">
+                                        <li><a href="@Url.Action("Index", "UserHome")">Ürünler</a></li>
+                                        <li><a href="@Url.Action("Index", "Cart")">Sepet</a></li>
+                                    <li><a href="@Url.Action("Index", "Login")">Çıkış Yap</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact-us.html">İletişim</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="search_box pull-right">
+                        <input type="text" placeholder="Arama" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--/header-bottom-->
+</header><!--/header-->
+
+<section id="wishlist_items">
+    <div class="container">
+        <div class="breadcrumbs mb-4">
+            <ol class="breadcrumb">
+                <li><a href="@Url.Action("Index", "Default")">Ana Sayfa</a></li>
+                <li class="active">Favoriler</li>
+            </ol>
+        </div>
+
+        <h2 class="title text-center mb-4">Favorilerim</h2>
+
+        @if (Model.Any())
+        {
+        <div class="table-responsive">
+            <table class="table table-hover text-center align-middle">
+                <thead class="thead-dark">
+                <tr>
+                    <th style="width: 120px;">Ürün</th>
+                    <th>Açıklama</th>
+                    <th>Fiyat</th>
+                    <th>İşlemler</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>
+                        <a href="#">
+                            <img src="@item.ProductImage" alt="Ürün Görseli" class="img-thumbnail" style="width: 100px;" />
+                        </a>
+                    </td>
+                    <td>
+                        <h5 class="mb-1">@item.ProductName</h5>
+                        <small class="text-muted">Web ID: 100112</small>
+                    </td>
+                    <td>
+                        <span class="fw-bold text-success">@item.ProductPrice.ToString("C2")</span>
+                    </td>
+                    <td>
+                        <form asp-controller="Cart" asp-action="SepeteEkle" method="post" class="d-inline">
+                            <input type="hidden" name="productId" value="@item.ProductID" />
+                            <input type="hidden" name="userId" value="@User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value" />
+                            <button type="submit" class="btn btn-success btn-sm mb-1">
+                                <i class="fa fa-shopping-cart"></i> Sepete Ekle
+                            </button>
+                        </form>
+                        <form asp-action="RemoveFromWishlist" method="post" class="d-inline">
+                            <input type="hidden" name="productId" value="@item.ProductID" />
+                            <button type="submit" class="btn btn-danger btn-sm">
+                                <i class="fa fa-times"></i>
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+        }
+        else
+        {
+        <div class="alert alert-info text-center" role="alert">
+            Favori listenizde ürün bulunmamaktadır.
+        </div>
+        }
+    </div>
+</section>
+ 
+
+<footer id="footer">
+</footer>
+
+<script src="~/Eshopper/js/jquery.js"></script>
+<script src="~/Eshopper/js/bootstrap.min.js"></script>
+<script src="~/Eshopper/js/jquery.scrollUp.min.js"></script>
+<script src="~/Eshopper/js/price-range.js"></script>
+<script src="~/Eshopper/js/jquery.prettyPhoto.js"></script>
+<script src="~/Eshopper/js/main.js"></script>
+</body>
+</html>

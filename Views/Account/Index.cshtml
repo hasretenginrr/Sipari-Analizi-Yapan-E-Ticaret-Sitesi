@@ -1,0 +1,21 @@
+@{
+    Layout = null;
+}
+
+@if (Model?.CurrentUser != null)
+{
+
+}
+else
+{
+    <p>Kullanýcý bilgisi yüklenemedi.</p>
+}
+
+<DOCTYPE html>
+    <html lang="en-US">
+
+    @await Component.InvokeAsync("AccountList")
+
+
+    </html>
+</DOCTYPE>

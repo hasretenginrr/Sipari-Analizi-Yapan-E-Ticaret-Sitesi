@@ -1,0 +1,285 @@
+@using System.Security.Claims
+@model BitirmeProjesi.DTOs.AccountViewModel
+@if (ViewBag.CurrentUser != null)
+{
+}
+else
+{
+    <p>Kullanıcı bilgisi yüklenemedi.</p>
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hesabım | E-Shopper</title>
+    <link href="~/Eshopper/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Eshopper/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Eshopper/css/prettyPhoto.css" rel="stylesheet">
+    <link href="~/Eshopper/css/price-range.css" rel="stylesheet">
+    <link href="~/Eshopper/css/animate.css" rel="stylesheet">
+    <link href="~/Eshopper/css/main.css" rel="stylesheet">
+    <link href="~/Eshopper/css/responsive.css" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <!--header-->
+        <div class="header_top">
+            <!--header_top-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="contactinfo">
+                            <ul class="nav nav-pills">
+                                <li><a href="#"><i class="fa fa-phone"></i>Hoşgeldin @ViewBag.CurrentUser.user_name</a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i> Hoşgeldin @ViewBag.CurrentUser.email</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="social-icons pull-right">
+                            <ul class="nav navbar-nav">
+                                <li><a href="https://www.facebook.com/login.php/"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://x.com/i/flow/login"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/login"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a href="https://workspace.google.com/intl/en-US/gmail/"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/header_top-->
+
+        <div class="header-middle">
+            <!--header-middle-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="logo pull-left">
+                            <a href="account.html">
+                                <img src="~/Eshopper/images/home/paint.png" alt="logo" class="img-fluid w-50">
+                            </a>
+                        </div>
+                        <div class="btn-group pull-right">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+                                    TUR
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Indian</a></li>
+                                    <li><a href="#">Turk</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+                                    TL
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Rupi</a></li>
+                                    <li><a href="#">Turk</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="shop-menu pull-right">
+                            <ul class="nav navbar-nav">
+                                <li><a href="@Url.Action("Index" ,"Account")"><i class="fa fa-user"></i> Hesap</a></li>
+                                <li><a href="@Url.Action("Index" ,"Wishlist")"><i class="fa fa-star"></i> Favoriler</a></li>
+                                <li><a href="@Url.Action("Index", "Cart")"><i class="fa fa-shopping-cart"></i> Sepet</a></li>
+                                <li><a href="@Url.Action("Index", "Login")"><i class="fa fa-lock"></i>Çıkış Yap</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/header-middle-->
+
+        <div class="header-bottom">
+            <!--header-bottom-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="mainmenu pull-left">
+                            <ul class="nav navbar-nav collapse navbar-collapse">
+                                <li><a href="@Url.Action("Index", "UserHome")" class="active">Ana Sayfa</a></li>
+                                <li class="dropdown">
+                                    <a href="#">Alışveriş<i class="fa fa-angle-down"></i></a>
+                                    <ul role="menu" class="sub-menu">
+                                        <li><a href="@Url.Action("Index", "Cart")">Sepet</a></li>
+                                        <li><a href="@Url.Action("Index", "Login")">Giriş</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="search_box pull-right">
+                            <input type="text" placeholder="Arama" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/header-bottom-->
+    </header><!--/header-->
+    <section id="account_items" style="padding: 60px 0; background-color: #f9f9f9;">
+        <div class="container">
+            <div class="account-wrapper">
+                <h2 class="text-center mb-5" style="font-weight: 700;">Hesabım</h2>
+
+                <!-- Menü sekmeleri -->
+                <ul class="nav nav-tabs justify-content-center mb-4" style="border-bottom: 2px solid #ddd;">
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="#">Bilgilerim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="#">Siparişler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#addAddressModal">
+                            Adres Ekle
+                        </a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="#" data-toggle="modal" data-target="#changePasswordModal">Şifre Değiştir</a>
+                    </li>
+                </ul>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <!-- Kullanıcı bilgileri kartı -->
+                        <div class="card shadow-sm p-4 mb-5 bg-white rounded">
+                            <h4 class="mb-3">Kişisel Bilgiler</h4>
+                            <p><strong>İsim:</strong> @ViewBag.CurrentUser.user_name </p>
+                            <p><strong>Email:</strong> @ViewBag.CurrentUser.email</p>
+                            <p><strong>Cinsiyet:</strong>@ViewBag.CurrentUser.gender</p>
+                        </div>
+
+                        <!-- Sipariş kartı -->
+                        <div class="card shadow-sm p-4 bg-white rounded">
+                            <h4 class="mb-4">Geçmiş Siparişler</h4>
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th>Order ID</th>
+                                            <th>Tarih</th>
+                                            <th>Adet</th>
+                                            <th>Ürün Adı</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var order in Model.Orders)
+                                        {
+                                            var orderDetails = Model.Order_Details.Where(od => od.order_id == order.id);
+
+                                            foreach (var od in orderDetails)
+                                            {
+                                                var product = Model.Products.FirstOrDefault(p => p.p_id == od.product_id);
+
+                                                <tr>
+                                                    <td>@order.id</td>
+                                                    <td>@order.order_date.ToString("dd.MM.yyyy")</td>
+                                                    <td>@od.quantity</td>
+                                                    <td>@product?.name</td>
+                                                </tr>
+                                            }
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <a href="@Url.Action("Index", "UserHome")" class="btn btn-dark"><i class="fa fa-home"></i> Alışverişe dön!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adres Değiştir Modal -->
+    <div class="modal fade" id="addAddressModal" tabindex="-1" role="dialog" aria-labelledby="addAddressModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form action="@Url.Action("AddAddress", "Account")" method="post">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" id="addAddressModalLabel">Yeni Adres Ekle</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="Adres">Adres</label>
+                            <textarea class="form-control" name="adres" id="Adres" rows="5" placeholder="Adresinizi buraya yazınız..." required></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-success">Kaydet</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">İptal</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Şifre Değiştir Modal -->
+    <div class="modal fade" id="changePasswordModal" tabindex="-1" role="dialog" aria-labelledby="changePasswordModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form method="post" action="@Url.Action("ChangePassword", "Account")">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="changePasswordModalLabel">Şifre Değiştir</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Kapat">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label>Mevcut Şifre</label>
+                            <input type="password" class="form-control" name="CurrentPassword" required />
+                        </div>
+                        <div class="form-group">
+                            <label>Yeni Şifre</label>
+                            <input type="password" class="form-control" name="NewPassword" required />
+                        </div>
+                        <div class="form-group">
+                            <label>Yeni Şifre (Tekrar)</label>
+                            <input type="password" class="form-control" name="ConfirmPassword" required />
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">İptal</button>
+                        <button type="submit" class="btn btn-primary">Şifreyi Güncelle</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/Eshopper/js/bootstrap.min.js"></script>
+
+
+</body>

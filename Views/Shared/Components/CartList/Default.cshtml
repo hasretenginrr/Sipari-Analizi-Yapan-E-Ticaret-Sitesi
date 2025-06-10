@@ -1,0 +1,359 @@
+@model BitirmeProjesi.ViewComponents.Cart.CartItemViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Cart | E-Shopper</title>
+    <link href="~/Eshopper/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Eshopper/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Eshopper/css/prettyPhoto.css" rel="stylesheet">
+    <link href="~/Eshopper/css/price-range.css" rel="stylesheet">
+    <link href="~/Eshopper/css/animate.css" rel="stylesheet">
+    <link href="~/Eshopper/css/main.css" rel="stylesheet">
+    <link href="~/Eshopper/css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="~/Eshopper/js/html5shiv.js"></script>
+    <script src="~/Eshopper/js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body>
+<header id="header">
+    <!--header-->
+    <div class="header_top">
+       <!--header_top-->
+       <div class="container">
+          <div class="row">
+             <div class="col-sm-6">
+                <div class="contactinfo">
+                   
+                   <ul class="nav nav-pills">
+                      <li><a href="#"><i class="fa fa-phone"></i>Hoşgeldin </a></li>
+                      <li><a href="#"><i class="fa fa-envelope"></i> </a></li>
+                   </ul>
+                   
+                </div>
+             </div>
+             <div class="col-sm-6">
+                <div class="social-icons pull-right">
+                   <ul class="nav navbar-nav">
+                      <li><a href="https://www.facebook.com/login.php/"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="https://x.com/i/flow/login"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="https://www.linkedin.com/login"><i class="fa fa-linkedin"></i></a></li>
+                      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                      <li><a href="https://workspace.google.com/intl/en-US/gmail/"><i class="fa fa-google-plus"></i></a></li>
+                   </ul>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div><!--/header_top-->
+
+    <div class="header-middle">
+       <!--header-middle-->
+       <div class="container">
+          <div class="row">
+             <div class="col-sm-4">
+                <div class="logo pull-left">
+                   <a href="index.html">
+                      <img src="~/Eshopper/images/home/paint.png" alt="logo" class="img-fluid w-50">
+                   </a>
+                </div>
+                <div class="btn-group pull-right">
+                   <div class="btn-group">
+                      <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+                         TUR
+                         <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                         <li><a href="#">Indian</a></li>
+                         <li><a href="#">UK</a></li>
+                      </ul>
+                   </div>
+
+                   <div class="btn-group">
+                      <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+                         TL
+                         <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                         <li><a href="#">Rupi</a></li>
+                         <li><a href="#">Pound</a></li>
+                      </ul>
+                   </div>
+                </div>
+             </div>
+             <div class="col-sm-8">
+                <div class="shop-menu pull-right">
+                   <ul class="nav navbar-nav">
+                      <li><a href="@Url.Action("Index", "Account")"><i class="fa fa-user"></i> Hesap</a></li>
+                       <li><a href="@Url.Action("Index", "Wishlist")"><i class="fa fa-star"></i> Favoriler</a></li>
+                      <li><a href="#"><i class="fa fa-shopping-cart"></i> Sepet</a></li>
+                      <li><a href="@Url.Action("Index", "Login")"><i class="fa fa-lock"></i>Çıkış Yap</a></li>
+                   </ul>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div><!--/header-middle-->
+
+    <div class="header-bottom">
+       <!--header-bottom-->
+       <div class="container">
+          <div class="row">
+             <div class="col-sm-9">
+                <div class="navbar-header">
+                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                   </button>
+                </div>
+                <div class="mainmenu pull-left">
+                   <ul class="nav navbar-nav collapse navbar-collapse">
+                      <li><a href="@Url.Action("Index", "UserHome")" class="active">Ana Sayfa</a></li>
+                      <li class="dropdown">
+                          <a href="@Url.Action("Index", "UserHome")">Alışveriş<i class="fa fa-angle-down"></i></a>
+                         <ul role="menu" class="sub-menu">
+                            <li><a href="#">Sepet</a></li>
+                            <li><a href="@Url.Action("Index", "Login")">Çıkış Yap</a></li>
+                         </ul>
+                      </li>
+                   </ul>
+                </div>
+             </div>
+             <div class="col-sm-3">
+                <div class="search_box pull-right">
+                   <input type="text" placeholder="Arama" />
+                </div>
+             </div>
+          </div>
+       </div>
+    </div><!--/header-bottom-->
+</header><!--/header-->
+
+<section id="cart_items">
+    <div class="container">
+       <div class="table-responsive cart_info">
+          <table class="table table-condensed">
+             <thead>
+             <tr class="cart_menu">
+                <td class="image">Ürün</td>
+                <td class="description">Açıklama</td>
+                <td class="price">Fiyat</td>
+                <td class="quantity">Adet</td>
+                <td class="total">Toplam</td>
+                <td></td>
+             </tr>
+             </thead>
+             <tbody>
+             @if (Model.CartItems != null && Model.CartItems.Any())
+             {
+	             foreach (var item in Model.CartItems)
+	             {
+		             <tr>
+			             <td class="cart_product align-middle" style="width: 120px;">
+				             <a href="#">
+					             <img src="@item.ProductImage" alt="@item.ProductName" class="img-fluid" style="width: 100px; height: auto; display: block;"/>
+				             </a>
+			             </td>
+			             <td class="cart_description align-middle" style="vertical-align: middle; width: 300px;">
+				             <h5 class="mb-1"><a href="#">@item.ProductName</a></h5>
+				             <p class="mb-0 text-muted">Ürün ID: @item.ProductID</p>
+			             </td>
+			             <td class="cart_price align-middle">
+				             <p class="fw-bold">@item.ProductPrice ₺</p>
+			             </td>
+			             <td class="cart_quantity align-middle">
+				             <div class="cart_quantity_button d-flex align-items-center">
+					             <!-- Eksi butonu -->
+					             <form asp-controller="Cart" asp-action="UpdateQuantity" method="post" class="me-2">
+						             <input type="hidden" name="productId" value="@item.ProductID"/>
+						             <input type="hidden" name="change" value="-1"/>
+						             <button type="submit" class="btn btn-sm btn-outline-secondary">-</button>
+					             </form>
+
+					             <!-- Adet gösterimi -->
+					             <input class="form-control mx-1 text-center" type="text" name="quantity" value="@item.quantity" readonly style="width: 50px;"/>
+
+					             <!-- Artı butonu -->
+					             <form asp-controller="Cart" asp-action="UpdateQuantity" method="post" class="ms-2">
+						             <input type="hidden" name="productId" value="@item.ProductID"/>
+						             <input type="hidden" name="change" value="1"/>
+						             <button type="submit" class="btn btn-sm btn-outline-secondary">+</button>
+					             </form>
+				             </div>
+			             </td>
+			             <td class="cart_total align-middle">
+				             <p class="cart_total_price">@(@item.ProductPrice * @item.quantity) ₺</p>
+			             </td>
+			             <td class="cart_delete align-middle">
+				             <form asp-controller="Cart" asp-action="RemoveFromCart" method="post">
+					             <input type="hidden" name="productId" value="@item.ProductID"/>
+					             <button type="submit" class="btn btn-sm btn-danger">
+						             <i class="fa fa-times"></i>
+					             </button>
+				             </form>
+			             </td>
+		             </tr>
+	             }
+             }
+
+             else
+             {
+                 <tr>
+                     <td colspan="6" class="text-center">
+                         <p>Sepetinizde ürün bulunmamaktadır.</p>
+                     </td>
+                 </tr>
+             }
+             </tbody>
+          </table>
+       </div>
+    </div>
+</section> <!--/#cart_items-->
+<section id="do_action">
+    <div class="container">
+       <div class="heading mb-3">
+          <h3>Sepet Özeti</h3>
+          <p>Alışverişinizi tamamlamadan önce sepetinizi kontrol edin.</p>
+       </div>
+       <div class="row">
+          <div class="col-sm-12">
+             <div class="total_area">
+                <ul>
+                   <li>Ara Toplam: <span>@Model.CartTotal ₺</span></li>
+                   <li>KDV: <span>@Model.Tax ₺</span></li>
+                   <li>Kargo: <span>@Model.ShippingCost ₺</span></li>
+                   <li><strong>Genel Toplam: <span>@Model.Total ₺</span></strong></li>
+                </ul>
+                <form asp-controller="Order" asp-action="ConfirmOrder" method="post">
+                   <button type="submit" class="btn btn-success">Sepeti Onayla</button>
+                </form>
+             </div>
+          </div>
+       </div>
+    </div>
+</section>
+    <footer id="footer">
+        <!--Footer-->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="companyinfo">
+                            <h2>
+                                <span>AISTYLE</span>
+                                SHOPPING
+                            </h2>
+                            <p>Yapay zeka destekli E-ticaret sitesi ve kişiye özel öneriler için doğru adrestesiniz! </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="col-sm-3">
+                            <div class="video-gallery text-center">
+                                <a href="https://www.linkedin.com/in/%C3%A7a%C4%9Fla-k%C3%BC%C3%A7%C3%BCk-a36224253/">
+                                    <div class="iframe-img">
+                                        <img src="~/Eshopper/images/home/linkedinlogo.png" alt="" />
+                                    </div>
+                                </a>
+                                <p>Linkedin - ÇAĞLA KÜÇÜK</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="video-gallery text-center">
+                                <a href="https://www.linkedin.com/in/hasret-nisa-enginer-915730244/">
+                                    <div class="iframe-img">
+                                        <img src="~/Eshopper/images/home/linkedinlogo.png" alt="" />
+                                    </div>
+                                </a>
+                                <p>Linkedin - HASRET NİSA ENGİNER</p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="video-gallery text-center">
+                                <a href="https://github.com/hasretenginrr">
+                                    <div class="iframe-img">
+                                        <img src="~/Eshopper/images/home/github.png" alt="" />
+                                    </div>
+                                    <div class="overlay-icon">
+                                        <i class="fa fa-play-circle-o"></i>
+                                    </div>
+                                </a>
+                                <p>GİTHUB - HASRET NİSA ENGİNER</p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="video-gallery text-center">
+                                <a href="https://github.com/Caglakucuk">
+                                    <div class="iframe-img">
+                                        <img src="~/Eshopper/images/home/github.png" alt="" />
+                                    </div>
+                                    <div class="overlay-icon">
+                                        <i class="fa fa-play-circle-o"></i>
+                                    </div>
+                                </a>
+                                <p>GİTHUB- ÇAĞLA KÜÇÜK</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="address">
+                            <img src="~/Eshopper/images/home/map.png" alt="" />
+                            <p>Edirne / Turkey</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-widget">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-sm-offset-1">
+                        <div class="single-widget">
+                            <h2>Alışveriş ile ilgili</h2>
+                            <form action="#" class="searchform">
+                                <input type="text" placeholder="Email adresin" />
+                                <button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
+                                <p>En son güncellemeleri almak için mailinizi giriniz. <br />Sitemizi ziyaret edin ve güncel kalın!</p>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <p class="pull-left">Copyright ©️ 2025 AISTYLE SHOPPING Inc. Tüm haklar saklıdır.</p>
+                    <p class="pull-right">Tasarım: <span><a target="_blank" href="http://www.themeum.com">Themeum</a></span></p>
+                </div>
+            </div>
+        </div>
+
+    </footer><!--/Footer-->
+	
+
+
+    <script src="~/Eshopper/js/jquery.js"></script>
+	<script src="~/Eshopper/js/bootstrap.min.js"></script>
+	<script src="~/Eshopper/js/jquery.scrollUp.min.js"></script>
+    <script src="~/Eshopper/js/jquery.prettyPhoto.js"></script>
+    <script src="~/Eshopper/js/main.js"></script>
+</body>
+</html>

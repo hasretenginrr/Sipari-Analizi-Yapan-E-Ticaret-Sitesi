@@ -1,0 +1,23 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+@{
+    var userId = (int)ViewBag.CurrentUser.user_id; 
+}
+
+<!DOCTYPE html>
+<html lang="en-US">
+    <body>
+    @await Component.InvokeAsync("UserHomeList")
+</body>
+
+</html>
+
+
+
+
+
+    

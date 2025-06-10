@@ -1,0 +1,532 @@
+﻿@using BitirmeProjesi.DTO
+@using System.Security.Claims
+@model BitirmeProjesi.DTO.UserHomeViewModel
+
+@{
+	ViewData["ShowUserHomeList"] = true;
+	ViewData["Title"] = "Anasayfa";
+}
+@{
+	var currentUser = ViewBag.CurrentUser as Users;
+	var userId = currentUser.user_id;
+}
+
+@if (currentUser != null)
+{
+	<p>Kullanıcı ID: @userId</p>
+}
+else
+{
+	<p>Kullanıcı bilgisi mevcut değil.</p>
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>AIStyle Shopping</title>
+	<link href="~/Eshopper/css/bootstrap.min.css" rel="stylesheet">
+	<link href="~/Eshopper/css/font-awesome.min.css" rel="stylesheet">
+	<link href="~/Eshopper/css/prettyPhoto.css" rel="stylesheet">
+	<link href="~/Eshopper/css/price-range.css" rel="stylesheet">
+	<link href="~/Eshopper/css/animate.css" rel="stylesheet">
+	<link href="~/Eshopper/css/main.css" rel="stylesheet">
+	<link href="~/Eshopper/css/responsive.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<link rel="shortcut icon" href="images/ico/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body>
+	<header id="header">
+		<!--header-->
+		<div class="header_top">
+			<!--header_top-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="contactinfo">
+							<ul class="nav nav-pills">
+								<li><a href="#"><i class="fa fa-phone"></i> Hoşgeldin @ViewBag.CurrentUser.user_name</a></li>
+								<li><a href="#"><i class="fa fa-envelope"></i> @ViewBag.CurrentUser.email</a></li>
+							</ul>
+						</div>
+
+					</div>
+					<div class="col-sm-6">
+						<div class="social-icons pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="https://www.facebook.com/login.php/"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://x.com/i/flow/login"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://www.linkedin.com/login"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="https://workspace.google.com/intl/en-US/gmail/"><i class="fa fa-google-plus"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header_top-->
+
+		<div class="header-middle">
+			<!--header-middle-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="logo pull-left">
+							<a href="index.html">
+								<img src="~/Eshopper/images/home/paint.png" alt="logo" class="img-fluid w-50">
+							</a>
+						</div>
+						<div class="btn-group pull-right">
+							<div class="btn-group">
+								<button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+									TUR
+									<span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li><a href="#">Indian</a></li>
+									<li><a href="#">TUR</a></li>
+								</ul>
+							</div>
+
+							<div class="btn-group">
+								<button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+									TL
+									<span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li><a href="#">Rupi</a></li>
+									<li><a href="#">Pound</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-8">
+						<div class="shop-menu pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="@Url.Action("Index", "Account")"><i class="fa fa-user"></i> Hesap</a></li>
+								<li><a href="@Url.Action("Index", "Wishlist")"><i class="fa fa-star"></i> Favoriler</a></li>
+								<li><a href="@Url.Action("Index", "Cart")"><i class="fa fa-shopping-cart"></i> Sepet</a></li>
+								<li><a href="@Url.Action("Index", "Login")"><i class="fa fa-lock"></i>Çıkış Yap</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-middle-->
+
+		<div class="header-bottom">
+			<!--header-bottom-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-9">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="mainmenu pull-left">
+							<ul class="nav navbar-nav collapse navbar-collapse">
+								<li><a href="@Url.Action("Index", "Default")" class="active">Ana Sayfa</a></li>
+								<li class="dropdown">
+									<a href="#">Alışveriş<i class="fa fa-angle-down"></i></a>
+									<ul role="menu" class="sub-menu">
+										<li><a href="@Url.Action("Index", "Cart")" class="active">Sepet</a></li>
+										<li><a href="@Url.Action("Index", "Login")">Giriş</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="search_box pull-right">
+							<input type="text" placeholder="Arama" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-bottom-->
+	</header><!--/header-->
+
+	<section id="slider">
+		<!--slider-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div id="slider-carousel" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
+							<li data-target="#slider-carousel" data-slide-to="1"></li>
+							<li data-target="#slider-carousel" data-slide-to="2"></li>
+						</ol>
+
+						<div class="carousel-inner">
+							<div class="item active">
+								<div class="col-sm-6">
+									<h1><span>AIStyle</span>-SHOPPING</h1>
+									<h2 style="color: #333;">Moda Burada, Tarz Sizde!</h2>
+									<p>Yaptığınız alışverilere özel olarak Yapay zeka destekli öneriler için doğru adresteniz!</p>
+									<button type="button" class="btn btn-default get">Alışverişe başlayın</button>
+								</div>
+								<div class="col-sm-6">
+									<img src="~/Eshopper/images/home/resimdeneme.jpeg" class="girl img-responsive" alt="" />
+								</div>
+							</div>
+							<div class="item">
+								<div class="col-sm-6">
+									<h1><span>AIStyle</span>-SHOPPING</h1>
+									<h2>Stilinizi Yansıtın, Şıklığı Yakalayın!</h2>
+									<p>Oy sayılarına göre öneriler için doğru adrestesiniz!</p>
+									<button type="button" class="btn btn-default get">Alışverişe başlayın</button>
+								</div>
+								<div class="col-sm-6">
+									<img src="~/Eshopper/images/home/indir.jpeg" class="img-fluid" style="max-width: 80%;" alt="" />
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="col-sm-6">
+									<h1><span>AI</span>-SHOPPING</h1>
+									<h2>Alışverişte Konfor, Şıklıkta Özgürlük!</h2>
+									<p>Onlarca farklı marka, onlarca farklı ürün için doğru adrestesiniz! </p>
+									<button type="button" class="btn btn-default get">Alışverişe başlayın</button>
+								</div>
+								<div class="col-sm-6">
+									<img src="~/Eshopper/images/home/indir2.png" class="girl img-responsive" alt="" />
+								</div>
+							</div>
+
+						</div>
+
+						<a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
+							<i class="fa fa-angle-left"></i>
+						</a>
+						<a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
+							<i class="fa fa-angle-right"></i>
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section><!--/slider-->
+	<section>
+		<class ="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="left-sidebar">
+						<div class="brands_products">
+							<!--Colour_products-->
+							<h2>Renkler</h2>
+							<div class="brands-name">
+								<ul class="nav nav-pills nav-stacked">
+									@foreach (var colour in Model.Products.Select(x => x.colour).Distinct())
+									{
+										<li><a href="/Colour/Index?colourName=@colour"> <span class="pull-right"></span>@colour</a></li>
+									}
+								</ul>
+							</div>
+						</div><!--Colour_products-->
+
+						<div class="brands_products">
+							<!--brands_products-->
+							<h2>Markalar</h2>
+							<div class="brands-name">
+								<ul class="nav nav-pills nav-stacked">
+									@foreach (var brand in Model.Products.Select(x => x.brand).Distinct())
+									{
+										<li><a href="/Brands/Index?brandName=@brand"> <span class="pull-right"></span>@brand</a></li>
+									}
+								</ul>
+							</div>
+						</div><!--/brands_products-->
+						<div class="price-range">
+							<h2>Fiyat Aralığı</h2>
+							<form method="get" asp-controller="Price" asp-action="Index">
+								<div class="well text-center">
+									<input type="number" name="min" value="0" min="0" max="10000" step="5" />
+									-
+									<input type="number" name="max" value="1000" min="0" max="10000" step="5" />
+									<br /><br />
+									<button type="submit" class="btn btn-primary">Filtrele</button>
+								</div>
+							</form>
+						</div>
+						<div class="shipping text-center">
+							<!--shipping-->
+							<img src="~/Eshopper/images/home/shipping.jpg" alt="" />
+						</div><!--/shipping-->
+
+					</div>
+				</div>
+				<div class="recommended_items">
+					<!--recommended_items-->
+					<h2 class="title text-center">SİZİN İÇİN ÖNERİLEN ÜRÜNLER</h2>
+
+					<!-- Kullanıcının ID’sini JS’e aktar -->
+					<input type="hidden" id="user-id-holder" value="@ViewBag.UserId" />
+
+					<div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner" id="carousel-products">
+							<!-- Ürünler dinamik olarak buraya gelecek -->
+							<div class="item active">
+								<p class="text-center">Ürünler yükleniyor... Lütfen bekleyin.</p>
+							</div>
+						</div>
+
+						<a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
+							<i class="fa fa-angle-left"></i>
+						</a>
+						<a class="right recommended-item-control" href="#recommended-item-carousel" data-slide="next">
+							<i class="fa fa-angle-right"></i>
+						</a>
+					</div>
+				</div><!--/recommended_items-->
+				<script>
+					document.addEventListener("DOMContentLoaded", () => {
+						const carouselContainer = document.getElementById("carousel-products");
+						const userId = document.getElementById("user-id-holder").value;
+						let dataFetched = false;
+						let isPolling = false;
+
+						async function fetchRecommendations() {
+							if (isPolling) return;
+							isPolling = true;
+
+							try {
+								const res = await fetch(`http://localhost:5062/recommend/${userId}`);
+								const data = await res.json();
+
+								if (Array.isArray(data.RecommendedProducts) && data.RecommendedProducts.length > 0) {
+									renderRecommendations(data.RecommendedProducts);
+									dataFetched = true;
+									console.log("Veriler başarıyla çekildi.");
+									console.log(data.RecommendedProducts);
+								} else {
+									console.log("Veri henüz hazır değil, 2 dakika sonra tekrar denenecek...");
+									setTimeout(fetchRecommendations, 170000);
+								}
+							} catch (err) {
+								console.error("API hatası:", err);
+								setTimeout(fetchRecommendations, 170000);
+							} finally {
+								isPolling = false;
+							}
+						}
+
+						function renderRecommendations(products) {
+						carouselContainer.innerHTML = ""; // Temizle
+
+						const row1 = products.slice(0, 3);
+						const row2 = products.slice(3, 6);
+
+						const rowHTML = (row) => `
+							<div class="row" style="margin-bottom: 20px;">
+								${row.map(p => `
+									<div class="col-sm-4">
+										<div class="product-image-wrapper">
+											<div class="single-products" style="cursor: pointer;" onclick="window.location.href='/ProductDetails/ProductDetails/${p.p_id}'">
+												<div class="productinfo text-center">
+													<img src="${p.img}" alt="${p.name}" style="height: 150px; object-fit: contain;" />
+													<h2>₺${p.price}</h2>
+													<p>${p.name}</p>
+													<a href="#" class="btn btn-default add-to-cart" onclick="event.stopPropagation();">
+														<i class="fa fa-shopping-cart"></i> Sepete Ekle
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								`).join("")}
+							</div>
+						`;
+
+						carouselContainer.innerHTML = rowHTML(row1) + rowHTML(row2);
+					}
+
+
+						fetchRecommendations();
+					});
+				</script>
+
+				<div class="col-sm-9 padding-right">
+					<div class="features_items">
+						<h2 class="title text-center">Ürünler</h2>
+						<div class="row">
+							@foreach (var item in Model.Products.OrderByDescending(x => x.avg_rating).Take(500))
+							{
+								<div class="col-sm-4">
+									<div class="product-image-wrapper">
+										<div class="single-products" style="cursor: pointer;" onclick="location.href='@Url.Action("ProductDetails", "ProductDetails", new { id = item.p_id })'">
+											<div class="productinfo text-center">
+												<img src="@item.img" alt="" />
+												<h2>@item.price TL</h2>
+												<p>@item.name</p>
+												<p>⭐ @item.ratingcount /10</p>
+												<form asp-controller="Cart" asp-action="SepeteEkle" method="post">
+													<input type="hidden" name="productId" value="@item.p_id" />
+													<input type="hidden" name="userId" value="@userId" />
+													<button type="submit">Sepete Ekle</button>
+												</form>
+											</div>
+											<div class="product-overlay">
+												<div class="overlay-content">
+													<h2>@item.price</h2>
+													<p>@item.name</p>
+													<p>⭐ @item.avg_rating</p>
+													<form asp-controller="Cart" asp-action="SepeteEkle" method="post">
+														<input type="hidden" name="productId" value="@item.p_id" />
+														<input type="hidden" name="userId" value="@userId" />
+														<button type="submit">Sepete Ekle</button>
+													</form>
+												</div>
+											</div>
+										</div>
+
+										<div class="choose">
+											<ul class="nav nav-pills nav-justified">
+												<li>
+													<form asp-controller="Wishlist" asp-action="FavorilereEkle" method="post" style="display:inline;">
+														<input type="hidden" name="productId" value="@item.p_id" />
+														<input type="hidden" name="userId" value="@userId" />
+														<button type="submit" style="border:none; background:none; color:inherit;">
+															<i class="fa fa-plus-square"></i> Favorilere Ekle
+														</button>
+													</form>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							}
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<footer id="footer">
+		<!--Footer-->
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<div class="companyinfo">
+							<h2><span>AISTYLE</span>
+								SHOPPING</h2>
+							<p>Yapay zeka destekli E-ticaret sitesi ve kişiye özel öneriler için doğru adrestesiniz! </p>
+						</div>
+					</div>
+					<div class="col-sm-7">
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="https://www.linkedin.com/in/%C3%A7a%C4%9Fla-k%C3%BC%C3%A7%C3%BCk-a36224253/">
+									<div class="iframe-img">
+										<img src="~/Eshopper/images/home/linkedinlogo.png" alt="" />
+									</div>
+								</a>
+								<p>Linkedin - ÇAĞLA KÜÇÜK</p>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="https://www.linkedin.com/in/hasret-nisa-enginer-915730244/">
+									<div class="iframe-img">
+										<img src="~/Eshopper/images/home/linkedinlogo.png" alt="" />
+									</div>
+								</a>
+								<p>Linkedin - HASRET NİSA ENGİNER</p>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="https://github.com/hasretenginrr">
+									<div class="iframe-img">
+										<img src="~/Eshopper/images/home/github.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>GİTHUB - HASRET NİSA ENGİNER</p>
+							</div>
+						</div>
+
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="https://github.com/Caglakucuk">
+									<div class="iframe-img">
+										<img src="~/Eshopper/images/home/github.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>GİTHUB- ÇAĞLA KÜÇÜK</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="address">
+							<img src="~/Eshopper/images/home/map.png" alt="" />
+							<p>Edirne / Turkey</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-widget">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3 col-sm-offset-1">
+						<div class="single-widget">
+							<h2>Alışveriş ile ilgili</h2>
+							<form action="#" class="searchform">
+								<input type="text" placeholder="Email adresin" />
+								<button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
+								<p>En son güncellemeleri almak için mailinizi giriniz. <br />Sitemizi ziyaret edin ve güncel kalın!</p>
+							</form>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<p class="pull-left">Copyright ©️ 2025 AISTYLE SHOPPING Inc. Tüm haklar saklıdır.</p>
+					<p class="pull-right">Tasarım: <span><a target="_blank" href="http://www.themeum.com">Themeum</a></span></p>
+				</div>
+			</div>
+		</div>
+
+	</footer><!--/Footer-->
+
+
+
+	<script src="~/Eshopper/js/jquery.js"></script>
+	<script src="~/Eshopper/js/bootstrap.min.js"></script>
+	<script src="~/Eshopper/js/jquery.scrollUp.min.js"></script>
+	<script src="~/Eshopper/js/price-range.js"></script>
+	<script src="~/Eshopper/js/jquery.prettyPhoto.js"></script>
+	<script src="~/Eshopper/js/main.js"></script>
+</body>
+</html>
